@@ -6,7 +6,7 @@
 '	    This file provides an example ActiveX client to communicate with the server provided by
 '       the PicoScope9200 software application for PicoScope 9200 Series sampling oscilloscopes.
 '
-'   Copyright © 2015-2017 Pico Technology Ltd. See LICENSE file for terms.
+'   Copyright © 2009-2017 Pico Technology Ltd. See LICENSE file for terms.
 '
 '===================================================================================================
 
@@ -18,9 +18,12 @@ Public Class PS9200ClientMainForm
         Sub New()
             COMRC = New PicoScope9000.COMRC
         End Sub
+
         Public Function ExecCommand(ByVal command As String) As String
+
             ' Executes a command, returns string result or raises an exception
             Dim result = COMRC.ExecCommand(command)
+
             If IsNothing(result) Then
                 Return ""
             ElseIf result = "ERROR" Then
@@ -28,7 +31,9 @@ Public Class PS9200ClientMainForm
             Else
                 Return result
             End If
+
         End Function
+
     End Class
 
 
@@ -173,5 +178,7 @@ Public Class PS9200ClientMainForm
         lblXEnd.Text = (XOrg + XInc * (data.Length - 1)) & " " & XU
         lblYTop.Text = XMax & " " & YU
         lblYBottom.Text = XMin & " " & YU
+
     End Sub
+
 End Class
