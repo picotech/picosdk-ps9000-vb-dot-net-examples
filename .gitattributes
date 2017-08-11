@@ -1,0 +1,6 @@
+# .gitattributes file for picosdk-ps9000-vb-dot-net-examples
+
+*.vb -crlf
+*.sln -crlf
+*.vbproj -crlf
+*.resx -crlf

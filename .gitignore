@@ -1,0 +1,17 @@
+# .gitignore file for picosdk-ps9000-vb-dot-net-examples repository
+# Untracked files/folders to ignore.
+
+# Folders
+
+**/.vs
+**/bin
+**/obj
+
+# Files 
+**/*.suo
+**/*.vbproj.user
+**/*.opensdf
+**/*.exe
+**/*.dll
+**/*.txt
+**/*.orig
