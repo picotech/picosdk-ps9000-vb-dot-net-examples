@@ -1,6 +1,6 @@
 # picosdk-ps9000-vb-dot-net-examples
 
-*picosdk-ps9000-vb-dot-net-examples* is a set of VB .NET examples demonstrating how to control the PicoScope^®^ 9200 and PicoScope 9300 Series PC Sampling Oscilloscopes using ActiveX.
+*picosdk-ps9000-vb-dot-net-examples* is a set of VB .NET examples demonstrating how to control the PicoScope<sup>®</sup> 9200 and PicoScope 9300 Series PC Sampling Oscilloscopes using ActiveX.
 
 Examples are provided as Microsoft Visual Studio Community 2017 solutions and are grouped according to whether the oscilloscope is a PicoScope 9200 Series or 9300 Series model.
 
